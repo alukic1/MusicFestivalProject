@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="216.0" prefWidth="313.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="unibl.etf.bp.festival.musicfestival.Controller.LoginController">
+   <children>
+      <PasswordField fx:id="password" layoutX="24.0" layoutY="108.0" />
+      <TextField fx:id="username" layoutX="24.0" layoutY="57.0" />
+      <Label layoutX="203.0" layoutY="61.0" text="Korisničko ime" />
+      <Label layoutX="203.0" layoutY="112.0" text="Lozinka" />
+      <Button layoutX="125.0" layoutY="157.0" mnemonicParsing="false" onAction="#login" text="Prijavi se" />
+      <Label fx:id="infoLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="29.0" layoutY="185.0" prefHeight="17.0" prefWidth="256.0" textAlignment="CENTER" textFill="RED" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="261.0" prefWidth="356.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="unibl.etf.bp.festival.musicfestival.Controller.UpdateStageController">
+   <children>
+      <TextField fx:id="stageLabel" layoutX="50.0" layoutY="71.0" />
+      <TextField fx:id="stageName" layoutX="50.0" layoutY="129.0" />
+      <Label layoutX="218.0" layoutY="75.0" prefHeight="17.0" prefWidth="55.0" text="Oznaka" />
+      <Label layoutX="219.0" layoutY="133.0" prefHeight="17.0" prefWidth="39.0" text="Naziv" />
+      <Button layoutX="152.0" layoutY="189.0" mnemonicParsing="false" onAction="#modifyStage" text="Izmijeni" />
+      <Label fx:id="infoLabel" layoutX="46.0" layoutY="230.0" prefHeight="17.0" prefWidth="268.0" />
+   </children>
+</AnchorPane>
